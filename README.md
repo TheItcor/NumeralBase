@@ -2,6 +2,15 @@
 
 Python library for working with various numeral systems.
 
+* [PyPi](https://pypi.org/project/NumeralBase/)
+
+**Download**
+``` console
+pip install numeralbase
+```
+
+## Converting
+
 ```python
 number = convert_base('10A', 16, 10) # Number for convert; number base; convertion to base
 # '10A' -> '266'
